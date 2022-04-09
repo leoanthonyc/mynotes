@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Site' });
 });
 
-/* GET home page. */
+/* GET notes page. */
 router.get('/notes', function(req, res, next) {
   res.render('notes', { title: 'Notes' });
 });
