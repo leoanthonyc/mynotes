@@ -16,4 +16,8 @@ router.get('/notes/1', function(req, res, next) {
   res.render('notes/1');
 });
 
+router.get('/notes/2', function(req, res, next) {
+  res.render('notes/2');
+});
+
 module.exports = router;
